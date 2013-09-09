@@ -1,19 +1,26 @@
 <!doctype html>
 <html lang="en" ng-app="myApp">
 <head>
-  <meta charset="utf-8">
-  <title>HTML5 Facial Recognition Demo</title>
+	<meta charset="utf-8">
+	<title>HTML5 Facial Recognition Demo</title>
 	<!-- script>document.write('<base href="' + document.location + '" />');</script -->
-	<link href="css/style.css" rel="stylesheet">
-  <!-- Bootstrap -->
+	<!-- Bootstrap -->
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	<!--Font Awesome-->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-43804435-1', 'facial-recog.herokuapp.com');
 		ga('send', 'pageview');
@@ -26,46 +33,67 @@
 </head>
 <body>
 <div compliant-redirect></div>
-<style>#forkongithub a{background:#aa0000;color:#fff;text-decoration:none;font-family:arial, sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#060;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/jewelsjacobs/facial_recog_demo">Fork me on GitHub</a></span>
-  <!-- navbar -->
-  <div class="navbar navbar-inverse">
-	  <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
-		  <div class="container">
-			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-			  </a>
-			  <a class="brand" href="/">HTML5 Facial Recognition Demo</a>
-			  <div class="nav-collapse">
-				  <ul class="nav">
-					  <li class="active"><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
-					  <li><a href="/snapshot">New User</a></li>
-					  <li><a href="/new_snapshot">Test Image For Existing User</a></li>
-				  </ul>
-			  </div><!-- /.nav-collapse -->
-		  </div><!-- /.container -->
-	  </div><!-- /.navbar-inner -->
-  </div><!-- /.navbar -->
+<style>#forkongithub a { background: #aa0000; color: #fff; text-decoration: none; font-family: arial, sans-serif; text-align: center; font-weight: bold; padding: 5px 40px; font-size: 1rem; line-height: 2rem; position: relative; transition: 0.5s; }
 
-  <div ng-view class="container"></div>
+#forkongithub a:hover { background: #060; color: #fff; }
 
-  <!-- Bower Libs -->
-  <script src="/js/bower/jquery/jquery.js"></script>
-	<script src="/js/bower/modernizr/modernizr.js"></script>
-	<script src="/js/bower/detectizr/detectizr.js"></script>
-  <script src="/js/modules/jquery.prettify.js"></script>
-  <script src="/js/bower/angular/angular.js"></script>
-	<script src="/js/bower/angularytics/dist/angularytics.js"></script>
-  <script src="/js/bower/angular-promise-tracker/promise-tracker.js"></script>
-  <script src="/js/bower/lodash/lodash.js"></script>
-  <script src="/js/modules/webcam.js"></script>
+#forkongithub a::before, #forkongithub a::after { content: ""; width: 100%; display: block; position: absolute; top: 1px; left: 0; height: 1px; background: #fff; }
 
-  <!-- App files -->
-  <script src="/js/app/app.js"></script>
-  <script src="/js/app/directives.js"></script>
-  <script src="/js/app/services.js"></script>
-  <script src="/js/app/controllers.js"></script>
-  <script src="/js/app/filters.js"></script>
+#forkongithub a::after { bottom: 1px; top: auto; }
+
+@media screen and (min-width: 800px) {
+	#forkongithub { position: absolute; display: block; top: 0; right: 0; width: 200px; overflow: hidden; height: 200px; }
+
+	#forkongithub a { width: 200px; position: absolute; top: 60px; right: -60px; transform: rotate(45deg); -webkit-transform: rotate(45deg); box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8); }
+}</style>
+<span id="forkongithub"><a href="https://github.com/jewelsjacobs/facial_recog_demo">Fork me on GitHub</a></span>
+<!-- navbar -->
+<div class="navbar navbar-inverse">
+	<div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<a class="brand" href="/">HTML5 Facial Recognition Demo</a>
+
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li class="active"><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
+					<li><a href="/snapshot">New User</a></li>
+					<li><a href="/new_snapshot">Test Image For Existing User</a></li>
+				</ul>
+			</div>
+			<!-- /.nav-collapse -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.navbar-inner -->
+</div>
+<!-- /.navbar -->
+
+<div ng-view class="container-fluid"></div>
+
+<!-- Bower Libs -->
+<script src="/js/bower/jquery/jquery.js"></script>
+<script src="/js/bower/modernizr/modernizr.js"></script>
+<script src="/js/bower/detectizr/detectizr.js"></script>
+<script src="/js/modules/jquery.prettify.js"></script>
+<script src="/js/bower/angular/angular.js"></script>
+<script src="/js/bower/spin.js/dist/spin.js"></script>
+<script src="/js/bower/angular-spinner/angular-spinner.js"></script>
+<script src="js/bower/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="/js/bower/angularytics/dist/angularytics.js"></script>
+<script src="/js/bower/angular-promise-tracker/promise-tracker.js"></script>
+<script src="/js/bower/lodash/lodash.js"></script>
+<script src="/js/modules/webcam.js"></script>
+
+<!-- App files -->
+<script src="/js/app/app.js"></script>
+<script src="/js/app/directives.js"></script>
+<script src="/js/app/services.js"></script>
+<script src="/js/app/controllers.js"></script>
+<script src="/js/app/filters.js"></script>
 </body>
 </html>

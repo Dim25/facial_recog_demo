@@ -34,7 +34,7 @@ app.service('localImageService', function ($http, $rootScope, $location, $q, pro
 				});
 			return deferred.promise;
 		},
-		delete: function() {
+		delete: function () {
 			var deferred = $q.defer();
 			$http({method: 'GET', url: "/camera/delete/"}).
 				success(function (data) {

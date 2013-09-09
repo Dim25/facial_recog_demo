@@ -7,6 +7,7 @@ var express = require("express"),
     app     = express(),
     routes = require('./routes'),
 		camera = require('./routes/camera'),
+		open = require('open'),
     port    = parseInt(process.env.PORT, 10) || 5000;
 
 // Configuration
@@ -51,3 +52,6 @@ app.get('/*', routes.index);
 // Start server
 app.listen(port);
 console.log('me server, me start on port ' + port + ' in ' + process.env.NODE_ENV + ' environment.');
+if (port > 80) {
+	open("http://localhost:" + port);
+}

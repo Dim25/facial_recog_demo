@@ -77,7 +77,7 @@ app.directive("compliantRedirect", function ($location) {
 
 			var device = Modernizr.Detectizr.device;
 
-			if (device.browser === 'chrome' || device.browser === 'chrome') {
+			if (device.browser === 'chrome' || device.browser === 'firefox' || device.browser === 'opera') {
 				return;
 			} else {
 				$location.path('/wrong_browser');

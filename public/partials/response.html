@@ -1,16 +1,24 @@
+<div class="row-fluid" ng-show="loadingRekog.active()">
+	<span style="position:fixed;top:50%;left:50%" us-spinner="spinnerOpts" />
+	<div class="modal-backdrop"></div>
+</div>
 <div class="page-header">
 	<h1>{{ service }} service response</h1>
 </div>
 <div class="alert alert-block alert-{{ alert.status }}">
 	{{ alert.message }} <h1>{{ name }}</h1>
 </div>
-<pretty-print data=data><br/></pretty-print>
+<button class="btn" ng-click="isCollapsed = !isCollapsed">{{containerButtonMessage}}</button>
+<hr>
+<div collapse="isCollapsed">
+	<pretty-print data=data><br/></pretty-print>
+</div>
 <div class="well well-large">
 	<button type="button" class="btn btn-large btn-info" ng-click="redo()">
 		<i class="icon-{{ icon.return }} icon-white"></i>
 		{{ button.return }}
 	</button>
-	<button type="button" ng-disabled="(alert.status != 'success')" class="btn btn-large btn-primary" ng-click="continue()">
+	<button type="button" ng-disabled="(alert.status != 'success') && !dontDisable" class="btn btn-large btn-primary" ng-click="continue()">
 		<i class="icon-{{ icon.continue }} icon-white"></i>
 		{{ button.continue }}
 	</button>

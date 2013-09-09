@@ -61,11 +61,21 @@ function AddCtrl($scope, $location, rekognitionService, apiRequestFactory, apiRe
 	}
 
 	$scope.redo = function () {
-		$location.path('/');
+		$location.path('/snapshot');
 	}
 }
 
 function AddResponseCtrl($scope, $location, rekognitionService, apiResponseFactory) {
+	$scope.containerButtonMessage = 'Show Response';
+	$scope.isCollapsed = true;
+	$scope.$watch('isCollapsed', function(value) {
+		if (value) {
+			$scope.containerButtonMessage = 'Show Response';
+		} else {
+			$scope.containerButtonMessage = 'Hide Response';
+		}
+	});
+
 	$scope.service = "Add";
 	$scope.icon = {
 		continue: 'arrow-right',
@@ -104,6 +114,15 @@ function AddResponseCtrl($scope, $location, rekognitionService, apiResponseFacto
 }
 
 function TrainCtrl($scope, $location, apiResponseFactory) {
+	$scope.containerButtonMessage = 'Show Response';
+	$scope.isCollapsed = true;
+	$scope.$watch('isCollapsed', function(value) {
+		if (value) {
+			$scope.containerButtonMessage = 'Show Response';
+		} else {
+			$scope.containerButtonMessage = 'Hide Response';
+		}
+	});
 	$scope.service = "Train";
 	$scope.icon = {
 		continue: 'arrow-right',
@@ -177,6 +196,15 @@ function RecognizeCtrl($scope, $location, apiRequestFactory, apiResponseFactory,
 }
 
 function RecognizeResponseCtrl($scope, $location, $filter, apiResponseFactory, localImageService) {
+	$scope.containerButtonMessage = 'Show Response';
+	$scope.isCollapsed = true;
+	$scope.$watch('isCollapsed', function(value) {
+		if (value) {
+			$scope.containerButtonMessage = 'Show Response';
+		} else {
+			$scope.containerButtonMessage = 'Hide Response';
+		}
+	});
 	$scope.service = "Recognize";
 	$scope.showName = true;
 	$scope.icon = {
@@ -187,6 +215,7 @@ function RecognizeResponseCtrl($scope, $location, $filter, apiResponseFactory, l
 		continue: 'Test with another image',
 		return: 'Create new user'
 	};
+	$scope.dontDisable = true;
 	var response = apiResponseFactory.response;
 	if (_.has(response, 'face_detection') && response['face_detection'].length > 0) {
 		$scope.data = response;
