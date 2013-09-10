@@ -5,8 +5,9 @@
 <div class="page-header">
 	<h1>Delete user</h1>
 </div>
-<label for="delete">Type user to delete</label>
-<input name="delete" id="delete" type="text" ng-model="selected" typeahead="name for name in names | filter:$viewValue | limitTo:8">
+<label>Type user to delete</label>
+<input type="text" ng-model="selected" typeahead="name for name in names | filter:$viewValue | limitTo:8">
+<!--<pretty-print data=names()></pretty-print>-->
 <div class="well well-large">
 	<button type="button" class="btn btn-large btn-danger" ng-click="delete()">
 		<i class="icon-remove icon-white"></i>

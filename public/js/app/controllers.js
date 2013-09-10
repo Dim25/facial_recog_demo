@@ -245,26 +245,36 @@ function RecognizeResponseCtrl($scope, $location, $filter, apiResponseFactory, l
 
 }
 
-function DeleteCtrl($scope, rekognitionService) {
-	// params for rekognition's ::FaceRecognize:
+function DeleteCtrl($scope, rekognitionService, $filter) {
+	//params for rekognition's ::FaceRecognize:
 	var select_params = {
 		jobs: 'face_visualize_no_image'
 	};
+	$scope.selected = undefined;
 
-	rekognitionService.get(select_params)
+	$scope.names = rekognitionService.get(select_params)
 		.then(
 		function (data) {
-			$scope.names = data;
+			var names = [];
+			_.each(data.visualization, function (value) {
+				var filteredNames = $filter('toName')(value.tag);
+				names.push(filteredNames);
+			})
+
+			console.log(names);
+			return names;
 		});
 
-	$scope.delete = function () {
-		var delete_params = {
-			jobs: 'face_delete[' + $scope.selected + ']'
-		}
-
 		$scope.delete = function () {
+			var nameArray = $scope.selected.split(" ");
+			var tag = nameArray[0].toLowerCase() +
+				'_' +
+				nameArray[1].toLowerCase();
+			console.log(tag);
+			var delete_params = {
+				jobs: 'face_delete[' + tag + ']'
+			}
 			rekognitionService.get(delete_params);
 		}
-	}
 
 }

@@ -67,7 +67,7 @@ app.service('rekognitionService', function ($http, $q, $rootScope, $location, pr
 			};
 
 			// hard coding image url if running on localhost for testing
-			params.urls = $location.host() == 'localhost'
+			params.urls = $location.host() == 'localhost' && _.indexOf(params.jobs, 'face_delete') == -1
 				? 'http://farm3.static.flickr.com/2566/3896283279_0209be7a67.jpg'
 				: params.urls;
 
