@@ -1,0 +1,15 @@
+<div class="row-fluid" ng-show="loadingRekog.active()">
+	<span style="position:fixed;top:50%;left:50%" us-spinner="spinnerOpts" />
+	<div class="modal-backdrop"></div>
+</div>
+<div class="page-header">
+	<h1>Delete user</h1>
+</div>
+<label for="delete">Type user to delete</label>
+<input name="delete" id="delete" type="text" ng-model="selected" typeahead="name for name in names | filter:$viewValue | limitTo:8">
+<div class="well well-large">
+	<button type="button" class="btn btn-large btn-danger" ng-click="delete()">
+		<i class="icon-remove icon-white"></i>
+		Delete user
+	</button>
+</div>

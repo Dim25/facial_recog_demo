@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce76dc96-b77f-4a42-8b96-b76cfc61adac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/templates/todos.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/lru-cache/s.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/ChangeLog" afterPath="" />
@@ -69,22 +71,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.legacy.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.mobile.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.mobile.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/CONTRIBUTE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/dist/restangular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/dist/restangular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/karma.underscore.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/src/restangular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/restangular/test/restangularSpec.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/underscore/.bower.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/underscore/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/underscore/.npmignore" afterPath="" />
@@ -131,153 +117,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bower/underscore/underscore.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/camera-images/localhost_test.png" afterPath="$PROJECT_DIR$/public/camera-images/localhost_test.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/angular/.bower.json" afterPath="$PROJECT_DIR$/public/js/bower/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/Inquirerjs.sublime-workspace" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/Inquirerjs.sublime-workspace" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/LICENSE.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/LICENSE.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream-ignore/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream-ignore/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/glob/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/glob/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/tar/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/tar/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/README.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/Readme.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/.bower.json" afterPath="$PROJECT_DIR$/public/js/bower/lodash/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/restangular/.bower.json" afterPath="$PROJECT_DIR$/public/js/bower/restangular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/about.html" afterPath="$PROJECT_DIR$/public/partials/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.js" afterPath="$PROJECT_DIR$/public/js/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/colors/colors.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/colors/colors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/configstore.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/configstore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/bower.json" afterPath="$PROJECT_DIR$/public/js/bower/lodash/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/controllers.js" afterPath="$PROJECT_DIR$/public/js/app/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/defaults.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/defaults.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/directives.js" afterPath="$PROJECT_DIR$/public/js/app/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/esprima.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/esprima.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/lib/form_data.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/lib/form_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/graceful-fs.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/graceful-fs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-config/node_modules/optimist/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-config/node_modules/optimist/node_modules/minimist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/minimist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/index.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/lru-cache/lib/lru-cache.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/mime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/mime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/mime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/new_snapshot.html" afterPath="$PROJECT_DIR$/public/partials/new_snapshot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-config/node_modules/optimist/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-config/node_modules/optimist/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/osenv/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/node_modules/osenv/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request-replay/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request-replay/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request-replay/node_modules/retry/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request-replay/node_modules/retry/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/aws-sign/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/aws-sign/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/cookie-jar/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/cookie-jar/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/forever-agent/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/forever-agent/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/boom/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/boom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/json-stringify-safe/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/json-stringify-safe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/oauth-sign/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/oauth-sign/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/tunnel-agent/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/tunnel-agent/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/colors/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/colors/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream-ignore/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream-ignore/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/fstream/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/node_modules/event-emitter/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/node_modules/event-emitter/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/node_modules/next-tick/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/node_modules/next-tick/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/mute-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/node_modules/mute-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/lru-cache/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/tar/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/tar/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/buffers/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/buffers/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/chainsaw/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/chainsaw/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/match-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/match-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/match-stream/node_modules/buffers/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/match-stream/node_modules/buffers/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/pullstream/node_modules/slice-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/pullstream/node_modules/slice-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/package.json" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/unzip/lib/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/lib/prompts/password.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/inquirer/lib/prompts/password.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/paths.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/paths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/q.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/q/q.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/rc.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/bower-config/lib/util/rc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/readme.md" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/response.html" afterPath="$PROJECT_DIR$/public/partials/response.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/review.html" afterPath="$PROJECT_DIR$/public/partials/review.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.compat.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.compat.min.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/lodash.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.min.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.underscore.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.underscore.min.js" afterPath="$PROJECT_DIR$/public/js/bower/lodash/dist/lodash.underscore.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/services.js" afterPath="$PROJECT_DIR$/public/js/app/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/snapshot.html" afterPath="$PROJECT_DIR$/public/partials/snapshot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/stringify-object.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/stringify-object/stringify-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/tests/test-basic-auth.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/tests/test-basic-auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/test.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/mime/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/test.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/mime/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/uuid.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/uuid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/uuid.js" afterPath="$PROJECT_DIR$/node_modules/bower-canary/node_modules/request/node_modules/node-uuid/uuid.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="facial_recog_demo.iws" />
@@ -301,14 +157,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="16" selection-start="5567" selection-end="5567" vertical-scroll-proportion="0.5927602" vertical-offset="1988" max-vertical-offset="2970">
+            <state line="267" column="3" selection-start="7386" selection-end="7386" vertical-scroll-proportion="0.0" vertical-offset="3646" max-vertical-offset="4125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
               <folding>
-                <element signature="n#!!block;n#SnapshotCtrl#0" expanded="false" />
-                <element signature="e#1603#1755#0" expanded="false" />
-                <element signature="e#3235#3373#0" expanded="false" />
+                <element signature="tag#div#0" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="tag#div#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -317,30 +182,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="45" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-9.375" vertical-offset="1170" max-vertical-offset="1620">
+            <state line="87" column="47" selection-start="3622" selection-end="3622" vertical-scroll-proportion="-2.0833333" vertical-offset="1255" max-vertical-offset="1680">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding>
-                <marker date="1378756724000" expanded="true" signature="126:379" placeholder="{&quot;lodash&quot;: &quot;~1.2.0&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detectizr.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/bower/detectizr/detectizr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="348" column="41" selection-start="17722" selection-end="17729" vertical-scroll-proportion="1.64" vertical-offset="5261" max-vertical-offset="7005">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -348,7 +191,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="99" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="13" column="54" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -357,7 +200,18 @@
       <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="27" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1380">
+            <state line="84" column="5" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="1111" max-vertical-offset="1590">
+              <folding>
+                <marker date="1378844812000" expanded="true" signature="2147:2466" placeholder="{&quot;restrict&quot;: 'E'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todos.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/app/templates/todos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="11" selection-start="581" selection-end="581" vertical-scroll-proportion="0.5316456" vertical-offset="0" max-vertical-offset="395">
               <folding />
             </state>
           </provider>
@@ -366,31 +220,11 @@
       <file leaf-file-name="response.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/partials/response.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
+            <state line="6" column="6" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="450">
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_snapshot.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/partials/new_snapshot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="570">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/partials/review.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="173" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1378760744000" expanded="true" signature="198:246" placeholder="..." />
+                <marker date="1378760744000" expanded="true" signature="303:351" placeholder="..." />
+                <marker date="1378760744000" expanded="true" signature="479:532" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -399,7 +233,31 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="3" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0" vertical-offset="1448" max-vertical-offset="1890">
+            <state line="109" column="65" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
+              <folding>
+                <element signature="e#212#1333#0" expanded="false" />
+                <element signature="e#1630#2644#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="17" selection-start="4477" selection-end="4477" vertical-scroll-proportion="-9.583333" vertical-offset="1315" max-vertical-offset="1710">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webcam.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/modules/webcam.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="17" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2025">
               <folding />
             </state>
           </provider>
@@ -423,9 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/partials/wrong_browser.html" />
-        <option value="$PROJECT_DIR$/public/github-btn.html" />
-        <option value="$PROJECT_DIR$/public/partials/about.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/public/partials/loading.html" />
@@ -434,18 +289,21 @@
         <option value="$PROJECT_DIR$/public/partials/new_snapshot.html" />
         <option value="$PROJECT_DIR$/public/partials/snapshot.html" />
         <option value="$PROJECT_DIR$/public/partials/response.html" />
+        <option value="$PROJECT_DIR$/public/partials/delete.html" />
+        <option value="$PROJECT_DIR$/public/js/app/controllers.js" />
+        <option value="$PROJECT_DIR$/public/partials/about.html" />
         <option value="$PROJECT_DIR$/public/js/app/directives.js" />
+        <option value="$PROJECT_DIR$/public/js/app/services.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/app/app.js" />
-        <option value="$PROJECT_DIR$/public/js/app/services.js" />
-        <option value="$PROJECT_DIR$/public/js/app/controllers.js" />
+        <option value="$PROJECT_DIR$/public/js/app/templates/todos.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1472" />
-    <option name="y" value="116" />
-    <option name="width" value="1691" />
+    <option name="x" value="1529" />
+    <option name="y" value="156" />
+    <option name="width" value="1440" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -499,7 +357,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -567,6 +424,58 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-sanitize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -604,12 +513,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facial_recog_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,7 +557,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/att_html5_uverse_poc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/travel" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="237" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1029" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="929" />
@@ -742,19 +678,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1472" y="116" width="1691" height="828" extended-state="0" />
-    <editor active="true" />
+    <frame x="1529" y="156" width="1440" height="828" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27112463" sideWeight="0.6638418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855093" sideWeight="0.6638418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2638298" sideWeight="0.2859155" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3361582" sideWeight="0.5003039" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3361582" sideWeight="0.49969605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3361582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3361582" sideWeight="0.49928263" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -805,34 +741,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/bower/angular-promise-tracker/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="590" selection-end="590" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bower/angular-promise-tracker/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/modules/webcam.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="44" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="2025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bower/angular-bootstrap/ui-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="5588" selection-end="5740" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="49875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
@@ -840,54 +748,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/snapshot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="930">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/new_snapshot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="173" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/response.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="173" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bower/detectizr/detectizr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="41" selection-start="17722" selection-end="17729" vertical-scroll-proportion="1.64" vertical-offset="5261" max-vertical-offset="7005">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="27" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1380">
+        <state line="348" column="41" selection-start="17722" selection-end="17729" vertical-scroll-proportion="0.0" vertical-offset="5220" max-vertical-offset="6915">
           <folding />
         </state>
       </provider>
@@ -896,40 +769,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding>
-            <marker date="1378756724000" expanded="true" signature="126:379" placeholder="{&quot;lodash&quot;: &quot;~1.2.0&quot;...}" />
+            <marker date="1378846286000" expanded="true" signature="-1:-1" placeholder="{&quot;lodash&quot;: &quot;~1.2.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/snapshot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/response.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="450">
+          <folding>
+            <marker date="1378760744000" expanded="true" signature="198:246" placeholder="..." />
+            <marker date="1378760744000" expanded="true" signature="303:351" placeholder="..." />
+            <marker date="1378760744000" expanded="true" signature="479:532" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
+          <folding>
+            <element signature="tag#div#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="3" selection-start="7386" selection-end="7386" vertical-scroll-proportion="0.0" vertical-offset="3646" max-vertical-offset="4170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/modules/webcam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="17" selection-start="4477" selection-end="4477" vertical-scroll-proportion="-9.583333" vertical-offset="1315" max-vertical-offset="1710">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="5" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="1111" max-vertical-offset="1590">
+          <folding>
+            <marker date="1378844812000" expanded="true" signature="2147:2466" placeholder="{&quot;restrict&quot;: 'E'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="65" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
+          <folding>
+            <element signature="e#212#1333#0" expanded="false" />
+            <element signature="e#1630#2644#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="45" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-9.375" vertical-offset="1170" max-vertical-offset="1620">
+        <state line="87" column="47" selection-start="3622" selection-end="3622" vertical-scroll-proportion="-2.0833333" vertical-offset="1255" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="99" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="13" column="54" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/services.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app/templates/todos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="3" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0" vertical-offset="1448" max-vertical-offset="1890">
+        <state line="14" column="11" selection-start="581" selection-end="581" vertical-scroll-proportion="0.5316456" vertical-offset="0" max-vertical-offset="395">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="16" selection-start="5567" selection-end="5567" vertical-scroll-proportion="0.5927602" vertical-offset="1988" max-vertical-offset="2970">
-          <folding>
-            <element signature="n#!!block;n#SnapshotCtrl#0" expanded="false" />
-            <element signature="e#1603#1755#0" expanded="false" />
-            <element signature="e#3235#3373#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

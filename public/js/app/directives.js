@@ -85,3 +85,17 @@ app.directive("compliantRedirect", function ($location) {
 		}
 	}
 })
+
+app.directive("githubEvents", function (gitHubService) {
+	return {
+		restrict: 'E',
+		replace: true,
+		transclude: true,
+		templateUrl: '/js/app/templates/todos.html',
+		link: function ($scope, $element, $attrs) {
+			gitHubService.one($attrs.owner, $attrs.repo).one('issues', 'events').get().then(function(issues){
+				$scope.data = _.where(issues, {event: "assigned"});
+			});
+		}
+	}
+})

@@ -8,14 +8,14 @@
 
 		<div class="media-body">
 			<p class="lead">HTML5 Heroku hosted demo which will recognize an image taken from a Webcam, associate it with a
-				user's
-				name and then allow any
-				image of the same person taken again with a Webcam to be recognized as that user. Or another user that has
-				already
-				been created.</p>
-				<a href="/snapshot" class="pull-right btn btn-primary btn-large">
-					<i class="icon-arrow-right"></i>&nbsp;Get Started
-				</a>
+			user's
+			name and then allow any
+			image of the same person taken again with a Webcam to be recognized as that user. Or another user that has
+			already
+			been created.</p>
+			<a href="/snapshot" class="pull-right btn btn-primary btn-large">
+				<i class="icon-arrow-right"></i>&nbsp;Get Started
+			</a>
 		</div>
 		<hr/>
 	</div>
@@ -36,7 +36,8 @@
 			to match the image with an existing user's name.
 		</li>
 	</ol>
-	<div class="center text-center">	<a class="btn btn-large btn-info" href="https://github.com/jewelsjacobs/facial_recog_demo">
+	<div class="center text-center"><a class="btn btn-large btn-info"
+	                                   href="https://github.com/jewelsjacobs/facial_recog_demo">
 		<i class="icon-github"></i>&nbsp;Source on Github
 	</a>
 		<a href="https://github.com/jewelsjacobs/facial_recog_demo/archive/master.zip" target="_blank"
@@ -44,74 +45,65 @@
 			<i class="icon-download-alt icon-large"></i>&nbsp;Download as .ZIP
 		</a></div>
 	<div class="img-polaroid" style="padding: 20px; margin-top: 10px;">
-	<h2>Facial Recognition</h2>
-	<hr/>
-	<dl>
-		<dt><a href="http://v2.rekognition.com/">ReKognition REST API</a></dt>
-		<dd>I created an angular.js service to consume this.</dd>
-	</dl>
-	<h2>HTML5 based technologies</h2>
-	<hr/>
-	<dl>
-		<dt><a href="http://www.webrtc.org/">WebRTC</a></dt>
-		<dd>I tweaked the awesome <a href="http://jonashartmann.github.io/webcam-directive/#/">Webcam angular.js
-			directive</a> from <a href="http://stackoverflow.com/users/1981709/jonas-hartmann">Jonas Hartmann</a>.
-		</dd>
-		<dt><a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a></dt>
-		<dd>I created an angular.js directive which is
-			dependant on the Webcam directive to capture Webcam snapshots. Inspiration and some code shamelessly ripped off
-			from
-			the Webcam angular.js directive's <a href="http://jonashartmann.github.io/webcam-directive/#/">Take Snapshot</a>
-			demo
-			<a href="view-source:http://jonashartmann.github.io/webcam-directive/#/">source</a>.
-		</dd>
-	</dl>
-	<h3>Javascript Stack</h3>
+		<h2>Facial Recognition</h2>
+		<hr/>
+		<dl>
+			<dt><a href="http://v2.rekognition.com/">ReKognition REST API</a></dt>
+			<dd>I created an angular.js service to consume this.</dd>
+		</dl>
+		<h2>HTML5 based technologies</h2>
+		<hr/>
+		<dl>
+			<dt><a href="http://www.webrtc.org/">WebRTC</a></dt>
+			<dd>I tweaked the awesome <a href="http://jonashartmann.github.io/webcam-directive/#/">Webcam angular.js
+				directive</a> from <a href="http://stackoverflow.com/users/1981709/jonas-hartmann">Jonas Hartmann</a>.
+			</dd>
+			<dt><a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a></dt>
+			<dd>I created an angular.js directive which is
+				dependant on the Webcam directive to capture Webcam snapshots. Inspiration and some code shamelessly ripped off
+				from
+				the Webcam angular.js directive's <a href="http://jonashartmann.github.io/webcam-directive/#/">Take Snapshot</a>
+				demo
+				<a href="view-source:http://jonashartmann.github.io/webcam-directive/#/">source</a>.
+			</dd>
+		</dl>
+		<h3>Javascript Stack</h3>
 		<h4 class="text-success">Backend</h4>
-	<ul>
-		<li><a href="http://nodejs.org/">node.js</a></li>
-		<li><a href="http://expressjs.com/">express</a></li>
+		<ul>
+			<li><a href="http://nodejs.org/">node.js</a></li>
+			<li><a href="http://expressjs.com/">express</a></li>
 		</ul>
 		<h4 class="text-success">Frontend</h4>
 		<ul>
-		<li><a href="http://angularjs.org/">angular.js</a></li>
-		<li><a href="http://getbootstrap.com/2.3.2/">bootstrap 2.3.2</a></li>
-		<ul><li>I tried using v3 but couldn't get it to work with the form
-			validation formatting. Plus I'm still trying to get used to the whole Flat UI thing.
-		</li></ul>
-		<li><a href="http://jquery.com/">jquery</a></li>
-		<ul><li>Dependency for a <a
-				href="https://github.com/jewelsjacobs/jquery.prettify">jquery.prettify</a> angular.js directive I'm using to
-			display and format API responses in browser.
-		</li></ul>
+			<li><a href="http://angularjs.org/">angular.js</a></li>
+			<li><a href="http://getbootstrap.com/2.3.2/">bootstrap 2.3.2</a></li>
+			<ul>
+				<li>I tried using v3 but couldn't get it to work with the form
+					validation formatting. Plus I'm still trying to get used to the whole Flat UI thing.
+				</li>
+			</ul>
+			<li><a href="http://jquery.com/">jquery</a></li>
+			<ul>
+				<li>Dependency for a <a
+						href="https://github.com/jewelsjacobs/jquery.prettify">jquery.prettify</a> angular.js directive I'm using to
+					display and format API responses in browser.
+				</li>
+			</ul>
 		</ul>
 		<h4 class="text-success">Other</h4>
 		<ul>
-		<li><a href="http://bower.io/">bower</a></li>
-		<li><a href="https://github.com/ajoslin/angular-promise-tracker">angular-promise-tracker</a></li>
-		<li><a href="http://lodash.com/">lo-dash</a></li>
-		<li><a href="http://modernizr.com/">modernizr</a></li>
-		<li><a href="http://barisaydinoglu.github.io/Detectizr/">detectizr</a></li>
-		<ul><li>I created an angular.js directive to detect if the browser works with WebRTC.</li></ul>
-	</ul>
-	<h2>TODO</h2>
-	<hr/>
-	<ul>
-		<li>Integrate services with angular-promise-tracker services injected with front end loading spinners or progress
-			bars
-		</li>
-		<li> Make angular.js modules out of custom services, directives and filters</li>
-		<li> Unit & <a href="http://docs.angularjs.org/guide/dev_guide.e2e-testing">end to end</a> testing with <a
-				href="http://karma-runner.github.io/0.10/index.html">karma</a> + <a
-				href="http://pivotal.github.io/jasmine/">jasmin</a></li>
-		<li> node module testing using <a href="http://vowsjs.org/">vows.js</a></li>
-		<li><a href="http://newtriks.com/2013/06/11/automating-angularjs-with-yeoman-grunt-and-bower/">Automate tests,
-			linting and concatenation / uglifying with Grunt</a></li>
-		<li><a href="">Finish up JSDoc blocks and decent comments</a>
-			API Docs with <a href="https://github.com/visionmedia/dox">dox</a></li>
-		<li>Set up with <a href="https://travis-ci.org/">TravisCI</a></li>
-	<li>Look at using <a href="http://phono.com/webrtc">PhonoSDK</a> as a WebRTC polyfill</li>
-	</ul>
+			<li><a href="http://bower.io/">bower</a></li>
+			<li><a href="https://github.com/ajoslin/angular-promise-tracker">angular-promise-tracker</a></li>
+			<li><a href="http://lodash.com/">lo-dash</a></li>
+			<li><a href="http://modernizr.com/">modernizr</a></li>
+			<li><a href="http://barisaydinoglu.github.io/Detectizr/">detectizr</a></li>
+			<ul>
+				<li>I created an angular.js directive to detect if the browser works with WebRTC.</li>
+			</ul>
+		</ul>
+		<h2>TODO</h2>
+		<hr/>
+		<github-events owner='jewelsjacobs' repo='facial_recog_demo' />
 		<p> If anyone wants to branch this and do some of these TODOs you would be my hero!</p>
 	</div>
 </div>

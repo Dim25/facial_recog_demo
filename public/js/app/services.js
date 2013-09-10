@@ -99,6 +99,18 @@ app.service('rekognitionService', function ($http, $q, $rootScope, $location, pr
 	}
 });
 
+// Github API service
+app.service('gitHubService', function (Restangular) {
+	return Restangular.withConfig(function (RestangularConfigurer) {
+		RestangularConfigurer.setBaseUrl('https://api.github.com/repos/');
+		var defaultParams = {
+			'client_id' : '4a8afef62e966cabe9ac',
+			'client_secret' : '89ac4e52d8f5633e01e9dc26338ff2bc74ce9d9f'
+		};
+		RestangularConfigurer.setDefaultRequestParams(defaultParams);
+	});
+});
+
 app.factory('apiResponseFactory', function () {
 	return {
 		'response': {}

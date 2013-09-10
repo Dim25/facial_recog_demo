@@ -1,7 +1,8 @@
 'use strict';
 
 /* Controllers */
-function AboutCtrl($scope) {};
+function AboutCtrl($scope) {
+};
 
 function SnapshotCtrl($scope, $location, localImageService, apiRequestFactory, formFactory) {
 	var port = _.indexOf($location.host, 'localhost') ? ':' + $location.port() : '';
@@ -68,7 +69,7 @@ function AddCtrl($scope, $location, rekognitionService, apiRequestFactory, apiRe
 function AddResponseCtrl($scope, $location, rekognitionService, apiResponseFactory) {
 	$scope.containerButtonMessage = 'Show Response';
 	$scope.isCollapsed = true;
-	$scope.$watch('isCollapsed', function(value) {
+	$scope.$watch('isCollapsed', function (value) {
 		if (value) {
 			$scope.containerButtonMessage = 'Show Response';
 		} else {
@@ -116,7 +117,7 @@ function AddResponseCtrl($scope, $location, rekognitionService, apiResponseFacto
 function TrainCtrl($scope, $location, apiResponseFactory) {
 	$scope.containerButtonMessage = 'Show Response';
 	$scope.isCollapsed = true;
-	$scope.$watch('isCollapsed', function(value) {
+	$scope.$watch('isCollapsed', function (value) {
 		if (value) {
 			$scope.containerButtonMessage = 'Show Response';
 		} else {
@@ -198,7 +199,7 @@ function RecognizeCtrl($scope, $location, apiRequestFactory, apiResponseFactory,
 function RecognizeResponseCtrl($scope, $location, $filter, apiResponseFactory, localImageService) {
 	$scope.containerButtonMessage = 'Show Response';
 	$scope.isCollapsed = true;
-	$scope.$watch('isCollapsed', function(value) {
+	$scope.$watch('isCollapsed', function (value) {
 		if (value) {
 			$scope.containerButtonMessage = 'Show Response';
 		} else {
@@ -238,6 +239,32 @@ function RecognizeResponseCtrl($scope, $location, $filter, apiResponseFactory, l
 	$scope.continue = function () {
 		localImageService.delete();
 		$location.path('/new_snapshot');
+	}
+
+//	http://rekognition.com/func/api/?api_key=ANkv85Gcu8jTcmRn&api_secret=Hq7elQKQ7zy7GaHu&jobs=face_visualize_no_image&name_space=demo&urls=http%3A%2F%2Ffacial-recog.herokuapp.com%3A80%2Fcamera-images%2Frecog_image_90.png&user_id=demo
+
+}
+
+function DeleteCtrl($scope, rekognitionService) {
+	// params for rekognition's ::FaceRecognize:
+	var select_params = {
+		jobs: 'face_visualize_no_image'
+	};
+
+	rekognitionService.get(select_params)
+		.then(
+		function (data) {
+			$scope.names = data;
+		});
+
+	$scope.delete = function () {
+		var delete_params = {
+			jobs: 'face_delete[' + $scope.selected + ']'
+		}
+
+		$scope.delete = function () {
+			rekognitionService.get(delete_params);
+		}
 	}
 
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', ['webcam', 'angularSpinner', 'ui.bootstrap', 'angularytics', 'ajoslin.promise-tracker', 'myApp.filters', 'myApp.services', 'myApp.directives']).
+angular.module('myApp', ['webcam', 'ngSanitize', 'angularSpinner', 'ui.bootstrap', 'angularytics', 'ajoslin.promise-tracker',  'restangular', 'myApp.filters', 'myApp.services', 'myApp.directives']).
 	config(['$routeProvider', '$locationProvider', '$httpProvider', 'AngularyticsProvider', function ($routeProvider, $locationProvider, $httpProvider, AngularyticsProvider) {
 		AngularyticsProvider.setEventHandlers(['Console', 'Google']);
 		delete $httpProvider.defaults.headers.common['X-Requested-With'];
@@ -15,6 +15,7 @@ angular.module('myApp', ['webcam', 'angularSpinner', 'ui.bootstrap', 'angularyti
 			.when('/new_snapshot', {templateUrl: 'partials/new_snapshot.html', controller: 'NewSnapshotCtrl'})
 			.when('/recognize', {templateUrl: 'partials/review.html', controller: 'RecognizeCtrl'})
 			.when('/recognize_response', {templateUrl: 'partials/response.html', controller: 'RecognizeResponseCtrl'})
+			.when('/delete', {templateUrl: 'partials/delete.html', controller: 'DeleteCtrl'})
 			.otherwise({redirectTo: '/'});
 
 		$locationProvider.html5Mode(true);

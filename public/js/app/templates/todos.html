@@ -1,0 +1,18 @@
+<div ng-transculde>
+	<ul>
+		<li ng-repeat="issue in data">
+			<del ng-show="issue.issue.state == 'closed'">
+				<span><a class="muted" href="{{ issue.issue.html_url }}">{{ issue.issue.title }}</a></span>
+			</del>
+			<span ng-show="issue.issue.state == 'open'"><a href="{{ issue.issue.html_url }}">{{ issue.issue.title }}</a></span>
+			<ul>
+				<li>
+					<div ng-show="issue.issue.state == 'open'" ng-bind-html="issue.issue.body"></div>
+					<del class="muted" ng-show="issue.issue.state == 'closed'">
+					<div ng-bind-html="issue.issue.body"></div>
+					</del>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
